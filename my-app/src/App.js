@@ -1,10 +1,13 @@
-import './App.css';
+import Login from "./components/Login";
+import { BrowserRouter, Route } from "react-router-dom";
+import Register from "./components/Register";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Selamat Datang FE-18-Avangers</h1>
-    </div>
+    <BrowserRouter>
+      <Route path="/" exact component={Login} />
+      <Route path="/register" component={Register} />
+    </BrowserRouter>
   );
 }
 
