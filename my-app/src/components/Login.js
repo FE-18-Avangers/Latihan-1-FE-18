@@ -8,7 +8,7 @@ export default class Login extends Component {
     return (
       <>
         <div className="container" style={{ marginTop: 60 }}>
-          <h2 className="text-center mb-5">Login</h2>
+          <h2 className="text-center mb-3">Login</h2>
           <div className="row">
             <div className="col-md-6">
               <img
@@ -42,14 +42,19 @@ export default class Login extends Component {
                   />
                 </div>
                 <div className="text-center">
-                  <button
+                  <Link
+                    to="/navbar"
                     type="submit"
                     class="btn btn-primary text-center px-5"
                   >
                     Sign in
-                  </button>
-                  <p>
-                    Belum punya akun? <Link to="/register"> Kesini segera</Link>
+                  </Link>
+                  <p className="mt-1" style={{ fontSize: 14 }}>
+                    Belum punya akun?{" "}
+                    <Link to="/register" style={{ textDecoration: "none" }}>
+                      {" "}
+                      Kesini segera
+                    </Link>
                   </p>
                 </div>
               </form>
