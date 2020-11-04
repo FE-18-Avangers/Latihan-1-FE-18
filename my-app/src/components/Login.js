@@ -8,7 +8,7 @@ export default class Login extends Component {
     return (
       <>
         <div className="container" style={{ marginTop: 60 }}>
-          <h2 className="text-center mb-3">Login</h2>
+          <h2 className="text-center mb-3">Login Coba</h2>
           <div className="row">
             <div className="col-md-6">
               <img
