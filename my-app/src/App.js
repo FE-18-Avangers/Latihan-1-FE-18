@@ -1,13 +1,18 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import UpgradePremium from './components/upgradePremium/Upgradepremium';
+import Movie from './components/API/movie';
+import DetailFilm from './components/API/DetailFilm';
+
+import { BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Selamat Datang FE-18-Avangers</h1>
-      <UpgradePremium />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Route exact path='/movie' component={Movie} />
+        <Route path='/movie/detailfilm/:id_film' component={DetailFilm} />
+      </div>
+    </BrowserRouter>
+
   );
 }
 
