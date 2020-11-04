@@ -39,7 +39,7 @@ class Movie extends Component {
         const listfilm = datafilm.map(film => {
             return (
                 <div key={film.id} className='card'>
-                    <Link to={'/detailfilm/' +film.id}>
+                    <Link to={'/movie/detailfilm/' +film.id}>
                         <h1>{film.title}</h1>
                     </Link>
                     <p>{film.description}</p>
