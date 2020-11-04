@@ -1,5 +1,5 @@
 import logo from './payment.svg';
-import './App.css';
+import './styleD.css';
 
 function ModalPembayaran() {
   return (
