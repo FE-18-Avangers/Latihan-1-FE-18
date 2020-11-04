@@ -1,6 +1,6 @@
 import React from 'react';
 import Homepage from './Homepage'
-import App from '../App'
+import App from '../../App'
 import {
     BrowserRouter as Router,
     Switch,

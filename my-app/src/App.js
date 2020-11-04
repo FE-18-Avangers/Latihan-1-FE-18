@@ -1,6 +1,6 @@
 import './App.css';
-import Movie from './components/movie';
-import DetailFilm from './components/DetailFilm';
+import Movie from './components/API/movie';
+import DetailFilm from './components/API/DetailFilm';
 
 import { BrowserRouter, Route } from 'react-router-dom';
 
