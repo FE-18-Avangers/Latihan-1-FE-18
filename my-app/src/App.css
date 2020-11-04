@@ -13,6 +13,8 @@
   }
 }
 
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +37,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* home */
+#home {
+  background-image: url('https://image.freepik.com/free-vector/abstract-background-with-dots-blurry-shapes_23-2148705493.jpg');
+  background-size: cover;
+  color: white;
+  
+}
+
+/* card */
+.card {
+  width: 70%;
+  height: 80%;
+  margin: 1rem auto;
+  padding: 10px;
+  background: white;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all .2s linear;
 }
