@@ -17,7 +17,7 @@ export default class Register extends Component {
       password === "1234" &&
       numberPhone === "11111"
     ) {
-      alert("Login Success! silahkan beralih ke Halaman login.");
+      alert("Regist Anda Success! silahkan beralih ke Halaman login.");
       this.props.history.push("/");
     } else {
       alert("bad news");
@@ -28,7 +28,10 @@ export default class Register extends Component {
     return (
       <>
         <div className="container" style={{ marginTop: 60 }}>
-          <h2 className="text-center mb-3" style={{ fontFamily: "Itim" }}>
+          <h2
+            className="text-center mb-3 text-white"
+            style={{ fontFamily: "Itim" }}
+          >
             Register
           </h2>
           <div className="row" style={{ marginTop: 40 }}>
@@ -44,7 +47,9 @@ export default class Register extends Component {
             <div className="col-md-6 align-self-center my-3">
               <form method="post" onSubmit={this.regist}>
                 <div className="form-group">
-                  <label for="nama">Nama</label>
+                  <label htmlFor="nama" className="text-white">
+                    Nama
+                  </label>
                   <input
                     type="text"
                     className="form-control"
@@ -54,7 +59,9 @@ export default class Register extends Component {
                   />
                 </div>
                 <div className="form-group">
-                  <label for="email">Email</label>
+                  <label htmlFor="email" className="text-white">
+                    Email
+                  </label>
                   <input
                     type="email"
                     className="form-control"
@@ -64,7 +71,9 @@ export default class Register extends Component {
                   />
                 </div>
                 <div className="form-group">
-                  <label for="password">Password</label>
+                  <label htmlFor="password" className="text-white">
+                    Password
+                  </label>
                   <input
                     type="password"
                     className="form-control"
@@ -74,7 +83,9 @@ export default class Register extends Component {
                   />
                 </div>
                 <div className="form-group">
-                  <label for="phone">Phone Number</label>
+                  <label htmlFor="phone" className="text-white">
+                    Phone Number
+                  </label>
                   <input
                     type="number"
                     className="form-control"
@@ -86,11 +97,11 @@ export default class Register extends Component {
                 <div className="text-center">
                   <button
                     type="submit"
-                    class="btn btn-primary text-center px-5"
+                    className="btn btn-primary text-center px-5"
                   >
                     Sign Up
                   </button>
-                  <p className="mt-1" style={{ fontSize: 14 }}>
+                  <p className="mt-1 text-white" style={{ fontSize: 14 }}>
                     Sudah punya akun?{" "}
                     <Link to="/" style={{ textDecoration: "none" }}>
                       {" "}

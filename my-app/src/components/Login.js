@@ -10,6 +10,7 @@ export default class Login extends Component {
       err: "",
     };
   }
+
   login = (e) => {
     e.preventDefault();
     let email = e.target.elements.email.value;
@@ -28,7 +29,10 @@ export default class Login extends Component {
     return (
       <>
         <div className="container" style={{ marginTop: 60 }}>
-          <h2 className="text-center mb-3" style={{ fontFamily: "Itim" }}>
+          <h2
+            className="text-center mb-3 text-white"
+            style={{ fontFamily: "Itim" }}
+          >
             Login
           </h2>
           <div className="row" style={{ marginTop: 40 }}>
@@ -45,7 +49,9 @@ export default class Login extends Component {
               <form method="post" onSubmit={this.login}>
                 {this.state.err != "" ? this.state.err : ""}
                 <div className="form-group">
-                  <label for="email">Email</label>
+                  <label htmlFor="email" className="text-white">
+                    Email
+                  </label>
                   <input
                     type="email"
                     className="form-control"
@@ -55,7 +61,9 @@ export default class Login extends Component {
                   />
                 </div>
                 <div className="form-group">
-                  <label for="password">Password</label>
+                  <label htmlFor="password" className="text-white">
+                    Password
+                  </label>
                   <input
                     type="password"
                     className="form-control"
@@ -67,12 +75,12 @@ export default class Login extends Component {
                 <div className="text-center">
                   <button
                     type="submit"
-                    class="btn btn-primary text-center px-5"
+                    className="btn btn-primary text-center px-5"
                   >
                     Sign in
                   </button>
 
-                  <p className="mt-1" style={{ fontSize: 14 }}>
+                  <p className="mt-1 text-white" style={{ fontSize: 14 }}>
                     Belum punya akun?{" "}
                     <Link
                       to="/register"
