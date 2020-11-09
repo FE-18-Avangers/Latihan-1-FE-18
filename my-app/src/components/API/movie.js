@@ -40,7 +40,7 @@ class Movie extends Component {
             return (
                 <div key={film.id} className='card'>
                     <Link to={'/movie/detailfilm/' +film.id}>
-                        <h1>{film.title}</h1>
+                        <h1 className='text-center'>{film.title}</h1>
                     </Link>
                     <p>{film.description}</p>
                 </div>
@@ -49,7 +49,7 @@ class Movie extends Component {
 
         return (
             <div>
-                <h1>Daftar Film</h1>
+                <h1 className='text-center' style={{color:'white'}}>Daftar Film</h1>
                 {listfilm}
             </div>
         )
