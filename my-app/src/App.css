@@ -84,8 +84,6 @@
   overflow: hidden;
 }
 
-/* .movflex {
-  display: flex;
-  flex-flow : column wrap;
-  align-content: flex-start
-} */
+.scroll {
+  overflow-y: auto;
+}
