@@ -65,3 +65,8 @@ footer{
 .movie > .jumbotron {
   height: 300px;
 }
+
+.listfilm {
+  display: inline-flex;
+  justify-content: inherit;
+}
