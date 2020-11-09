@@ -10,7 +10,7 @@ class Pembayaran extends Component{
   <button className="btn mr-5 btn-danger" href="#">Keluar</button>
 </nav>
 <section>
-<div class="container ">
+<div class="container "> 
         <div className="row mt-5">
             <div className="col-sm-12 text-center">
                 <h2>Payment</h2>

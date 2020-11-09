@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 class ModalPembayaran extends Component{
     render(){
         return (
-      <div>
+      <div> 
       <nav class="navbar navbar-dark mr-auto bg-dark">
         <button class="btn btn-danger ml-5" href="#">Logo</button>
         <button className="btn mr-5 btn-danger" href="#">Keluar</button>
