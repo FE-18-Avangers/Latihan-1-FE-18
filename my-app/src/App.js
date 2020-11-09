@@ -5,6 +5,7 @@ import Movie from "./components/API/movie";
 import DetailFilm from "./components/API/DetailFilm";
 import Homepage from "./components/API/Homepage";
 import Navbar from "./components/API/Navbar";
+import UpgradePremium from './components/upgradePremium/Upgradepremium';
 
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -16,6 +17,7 @@ function App() {
       <Route path="/navbar" component={Navbar} />
       <Route exact path="/movie" component={Movie} />
       <Route path="/movie/detailfilm/:id_film" component={DetailFilm} />
+      <Route exact path="/upgrade-premium" component={UpgradePremium} />
     </BrowserRouter>
   );
 }
