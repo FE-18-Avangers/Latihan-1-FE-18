@@ -48,8 +48,14 @@ class Movie extends Component {
         })
 
         return (
-            <div>
-                <h1 className='text-center' style={{color:'white'}}>Daftar Film</h1>
+            <div className='movie'>
+                <div className='jumbotron' style={{backgroundColor:'black', textAlign:'center', color:'white'}}>
+                    <h3>Selamat datang</h3>
+                    <h3>Film, acara TV tak terbatas</h3>
+                    <br />
+                    <h3>dan lebih banyak lagi</h3>
+                </div>
+                <h1 className='text-center' style={{color:'white'}}>Movie List</h1>
                 {listfilm}
             </div>
         )
