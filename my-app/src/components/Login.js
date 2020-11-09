@@ -29,10 +29,7 @@ export default class Login extends Component {
     return (
       <>
         <div className="container" style={{ marginTop: 60 }}>
-          <h2
-            className="text-center mb-3 text-white"
-            style={{ fontFamily: "Itim" }}
-          >
+          <h2 className="text-center mb-3" style={{ fontFamily: "Itim" }}>
             Login
           </h2>
           <div className="row" style={{ marginTop: 40 }}>
@@ -49,9 +46,7 @@ export default class Login extends Component {
               <form method="post" onSubmit={this.login}>
                 {this.state.err != "" ? this.state.err : ""}
                 <div className="form-group">
-                  <label htmlFor="email" className="text-white">
-                    Email
-                  </label>
+                  <label htmlFor="email">Email</label>
                   <input
                     type="email"
                     className="form-control"
@@ -61,9 +56,7 @@ export default class Login extends Component {
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="password" className="text-white">
-                    Password
-                  </label>
+                  <label htmlFor="password">Password</label>
                   <input
                     type="password"
                     className="form-control"
@@ -77,16 +70,16 @@ export default class Login extends Component {
                     type="submit"
                     className="btn btn-primary text-center px-5"
                   >
-                    Sign in
+                    Login
                   </button>
 
-                  <p className="mt-1 text-white" style={{ fontSize: 14 }}>
-                    Belum punya akun?{" "}
+                  <p className="mt-1" style={{ fontSize: 14 }}>
+                    Don't have an account?{" "}
                     <Link
                       to="/register"
                       className="text-primary text-decoration-none"
                     >
-                      Kesini segera
+                      Sign Up
                     </Link>
                   </p>
                 </div>

@@ -28,10 +28,7 @@ export default class Register extends Component {
     return (
       <>
         <div className="container" style={{ marginTop: 60 }}>
-          <h2
-            className="text-center mb-3 text-white"
-            style={{ fontFamily: "Itim" }}
-          >
+          <h2 className="text-center mb-3" style={{ fontFamily: "Itim" }}>
             Register
           </h2>
           <div className="row" style={{ marginTop: 40 }}>
@@ -47,9 +44,7 @@ export default class Register extends Component {
             <div className="col-md-6 align-self-center my-3">
               <form method="post" onSubmit={this.regist}>
                 <div className="form-group">
-                  <label htmlFor="nama" className="text-white">
-                    Nama
-                  </label>
+                  <label htmlFor="nama">Name</label>
                   <input
                     type="text"
                     className="form-control"
@@ -59,9 +54,7 @@ export default class Register extends Component {
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="email" className="text-white">
-                    Email
-                  </label>
+                  <label htmlFor="email">Email</label>
                   <input
                     type="email"
                     className="form-control"
@@ -71,9 +64,7 @@ export default class Register extends Component {
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="password" className="text-white">
-                    Password
-                  </label>
+                  <label htmlFor="password">Password</label>
                   <input
                     type="password"
                     className="form-control"
@@ -83,9 +74,7 @@ export default class Register extends Component {
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="phone" className="text-white">
-                    Phone Number
-                  </label>
+                  <label htmlFor="phone">Phone Number</label>
                   <input
                     type="number"
                     className="form-control"
@@ -101,11 +90,11 @@ export default class Register extends Component {
                   >
                     Sign Up
                   </button>
-                  <p className="mt-1 text-white" style={{ fontSize: 14 }}>
-                    Sudah punya akun?{" "}
+                  <p className="mt-1" style={{ fontSize: 14 }}>
+                    Have an account?{" "}
                     <Link to="/" style={{ textDecoration: "none" }}>
                       {" "}
-                      Kesini segera
+                      Login
                     </Link>
                   </p>
                 </div>
