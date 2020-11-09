@@ -1,46 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
-.App {
-  text-align: center;
+
+
+button {
+  width: 200px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 200px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* img {
+  margin-top: 70px;
+} */
+.utama {
+  font-weight: 400;
+  font-size: 26px;
+  margin-top: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+footer{
+  background-color: salmon;
+  min-height: 10vh;
+  display: flex ;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 60px;
+  padding: 10px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 
 /* home */
 .jumbotron {
@@ -75,4 +60,8 @@
   border-radius: 12px;
   overflow: hidden;
   transition: all .2s linear;
+}
+
+.movie > .jumbotron {
+  height: 300px;
 }
