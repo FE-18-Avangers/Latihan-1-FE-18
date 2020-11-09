@@ -57,7 +57,7 @@ class Movie extends Component {
                 </div>
 
                
-                <h1 className='text-center' style={{ color: 'white' }}>Movie List</h1>
+                <h1 className='text-center'>Movie List</h1>
                 <div> 
                     <form className="form-inline " style={{marginLeft:'550px'}}>
                         <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
