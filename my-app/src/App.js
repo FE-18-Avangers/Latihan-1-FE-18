@@ -14,7 +14,7 @@ function App() {
       <Route path="/" exact component={Login} />
       <Route path="/register" component={Register} />
       <Route path="/navbar" component={Navbar} />
-      <Route path="/movie" component={Movie} />
+      <Route exact path="/movie" component={Movie} />
       <Route path="/movie/detailfilm/:id_film" component={DetailFilm} />
     </BrowserRouter>
   );

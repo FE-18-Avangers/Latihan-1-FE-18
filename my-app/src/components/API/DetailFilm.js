@@ -33,7 +33,7 @@ class DetailFilm extends Component {
     // console.log(this.props)
     return (
       <div className="container">
-        <h1>Detail FIlm</h1>
+        <h1 className='text-center' style={{color: 'white'}}>Detail FIlm</h1>
         <div className="card container">
           <h2>{film.title}</h2>
           <p>{film.description}</p>
