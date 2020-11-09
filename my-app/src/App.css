@@ -63,5 +63,12 @@ footer{
 }
 
 .movie > .jumbotron {
-  height: 300px;
+  height: 350px;
+}
+.movie {
+  overflow: hidden;
+}
+
+.scroll {
+  overflow-y: auto;
 }

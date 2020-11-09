@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import { Link } from 'react-router-dom';
 
+
+>>>>>>> versi_darius:my-app/src/components/Homepage.js
 class Homepage extends Component {
     
     render() {
