@@ -76,3 +76,7 @@
   overflow: hidden;
   transition: all .2s linear;
 }
+
+.movie > .jumbotron {
+  height: 350px;
+}

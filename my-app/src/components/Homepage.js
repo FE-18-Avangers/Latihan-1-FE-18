@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-
+import {Link} from 'react-router-dom'
 class Homepage extends Component {
     
     render() {
@@ -12,8 +12,9 @@ class Homepage extends Component {
                 <br />
                 <br />
                 <h2>Siap Memulai Petualangan di dunia Fantasy?</h2>
-                <br />
+                <Link to = {'/movie'}>
                 <button type="button" class="btn btn-danger">CLICK TO START</button>
+                </Link>
               </div>
             </div>
         );
