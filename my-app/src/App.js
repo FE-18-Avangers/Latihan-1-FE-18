@@ -6,6 +6,8 @@ import DetailFilm from "./components/API/DetailFilm";
 import Homepage from "./components/API/Homepage";
 import Navbar from "./components/API/Navbar";
 import UpgradePremium from './components/upgradePremium/Upgradepremium';
+import Pembayaran from './components/API/Pembayaran';
+import ModalPembayaran from './components/API/ModalPembayaran'
 
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -18,6 +20,8 @@ function App() {
       <Route exact path="/movie" component={Movie} />
       <Route path="/movie/detailfilm/:id_film" component={DetailFilm} />
       <Route exact path="/upgrade-premium" component={UpgradePremium} />
+      <Route exact path="/upgrade-premium/pembayaran" component={Pembayaran} />
+      <Route exact path="/upgrade-premium/modalpembayaran" component={ModalPembayaran} />
     </BrowserRouter>
   );
 }

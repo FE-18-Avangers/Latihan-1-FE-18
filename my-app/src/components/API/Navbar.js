@@ -27,7 +27,7 @@ class Navbar extends React.Component {
                                 <a class="nav-link" href="/movie">Movie List</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/">Pembayaran</a>
+                                <a class="nav-link" href="/pembayaran">Pembayaran</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/upgrade-premium">Upgrade</a>

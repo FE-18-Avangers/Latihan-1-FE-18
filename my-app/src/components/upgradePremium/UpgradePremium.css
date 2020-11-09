@@ -16,6 +16,11 @@
     font-weight: bold;
     color: #fff;
     font-size: 22px;
+    cursor: pointer;
+}
+
+.service p:hover {
+    opacity: 0.8;
 }
 
 .service-content-container {
@@ -45,7 +50,7 @@
 button {
     padding: 14px 28px;
     border: none;
-    background-color: #0069D9;
+    background-color: gray;
     font-weight: bold;
     color: #fff;
 }
