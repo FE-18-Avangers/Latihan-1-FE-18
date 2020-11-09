@@ -80,3 +80,12 @@
 .movie > .jumbotron {
   height: 350px;
 }
+.movie {
+  overflow: hidden;
+}
+
+/* .movflex {
+  display: flex;
+  flex-flow : column wrap;
+  align-content: flex-start
+} */

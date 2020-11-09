@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Movie extends Component {
 
@@ -38,12 +38,17 @@ class Movie extends Component {
 
         const listfilm = datafilm.map(film => {
             return (
-                <div key={film.id} className='card'>
-                    <Link to={'/movie/detailfilm/' +film.id}>
-                        <h1>{film.title}</h1>
-                    </Link>
-                    <p>{film.description}</p>
+                <div className='row'>
+                    
+                        <div key={film.id} className='card'>
+                            <Link to={'/movie/detailfilm/' + film.id}>
+                                <h1>{film.title}</h1>
+                            </Link>
+                            <p>{film.description}</p>
+                        </div>
+                    
                 </div>
+
             )
         })
 
@@ -56,16 +61,18 @@ class Movie extends Component {
                     <h3>dan lebih banyak lagi</h3>
                 </div>
 
-               
+
                 <h1 className='text-center'>Movie List</h1>
-                <div> 
-                    <form className="form-inline " style={{marginLeft:'550px'}}>
+                <div>
+                    <form className="form-inline " style={{ marginLeft: '40%' }}>
                         <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
                         <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                     </form>
                 </div>
-                {listfilm}
-                
+                <div className='movflex'>
+                    {listfilm}
+                </div>
+
             </div>
         )
     }
