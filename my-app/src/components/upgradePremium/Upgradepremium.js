@@ -1,5 +1,6 @@
 import React from 'react';
 import './UpgradePremium.css'
+import { Link } from "react-router-dom";
 
 class UpgradePremium extends React.Component {
     render() {
@@ -63,7 +64,7 @@ class UpgradePremium extends React.Component {
                     </div>
                 </div>
                 <div class="submit-button row">
-                    <button>Selanjutnya</button>
+                    <button><Link to='/pembayaran'>Selanjutnya</Link></button>
                 </div>
             </div>
         )
