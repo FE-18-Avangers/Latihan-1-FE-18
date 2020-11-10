@@ -47,19 +47,14 @@ class Movie extends Component {
                     </div> */}
 
 
-                    <h1 className='text-center'>Movie List</h1>
-                    <div>
-                        <form className="form-inline " style={{ marginLeft: '550px' }}>
-                            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
-                            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                    </div>
+                    <h1 className='text-left'>Movie List</h1>
 
                 </div>
                 <div className='row'>
                     {datafilm.map(film =>
                         <div className='col-sm-4'>
-                            <div className='card  scroll' key={film.id}>
+                            <div className='card scroll' key={film.id}>
+                                <img className='card-img-top' src='https://png.pngtree.com/png-vector/20190816/ourlarge/pngtree-film-logo-design-template-vector-isolated-illustration-png-image_1693431.jpg' style={{width:'85%', margin: 'auto'}}></img>
                                 <Link to={'/movie/detailfilm/' + film.id}>
                                     <h1 style={{textAlign:'center'}}>{film.title}</h1>
                                 </Link>
