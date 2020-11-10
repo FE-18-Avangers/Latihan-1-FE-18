@@ -29,7 +29,7 @@ footer{
 
 /* home */
 .jumbotron {
-  height:700px; 
+  height:450px; 
 
 }
 .jumbotron hr {
@@ -37,17 +37,18 @@ footer{
   border-top: 3px solid white;
 }
 #home {
-  background-image: url('https://i.pinimg.com/originals/b5/85/3e/b5853e5bb50bfe476c6f6a2252ac7928.jpg');
+  /* background-image: url('https://i.pinimg.com/originals/b5/85/3e/b5853e5bb50bfe476c6f6a2252ac7928.jpg'); */
   /* kl load gambar lama, bisa diganti */
+  background-color: black;
   background-size: cover;
   font-family: 'Itim';
   color: white;
 
 }
 
-#home > .tampilan > h1 {
+/* #home > .tampilan > h1 {
   margin-top: 140px;
-}
+} */
 
 /* card */
 .card {

@@ -47,13 +47,7 @@ class Movie extends Component {
                     </div> */}
 
 
-                    <h1 className='text-center'>Movie List</h1>
-                    <div>
-                        <form className="form-inline " style={{ marginLeft: '36%' }}>
-                            <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"></input>
-                            <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
-                    </div>
+                    <h1 className='text-left'>Movie List</h1>
 
                 </div>
                 <div className='row'>

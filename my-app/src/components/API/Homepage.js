@@ -11,15 +11,16 @@ class Homepage extends Component {
       <div>
         <div className="jumbotron text-center" id="home">
           <div className="tampilan">
-            <h1 className="display-4">Welcome FE-18 Movie</h1>
+            <h1 className="display-4">Selamat Datang</h1>
             <hr />
-            <h3>Kumpulan Film-film Anime Lengkap</h3>
+            <h3>Film, acara TV tak terbatas</h3>
+            
+            <br />
+            <h2>dan lebih banyak lagi</h2>
             <br />
             <br />
-            <h2>Siap Memulai Petualangan di dunia Fantasy?</h2>
-            <br />
-            <Link to={'/movie'}>
-              <button type="button" class="btn btn-danger">CLICK TO START</button>
+            <Link to={'/upgrade-premium'}>
+              <button type="button" class="btn btn-danger">CLICK TO UPGRADE</button>
             </Link>
           </div>
         </div>
