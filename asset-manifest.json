@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Latihan-1-FE-18/my-app/static/css/main.3b4b208f.chunk.css",
+    "main.js": "/Latihan-1-FE-18/my-app/static/js/main.5dd8a438.chunk.js",
+    "main.js.map": "/Latihan-1-FE-18/my-app/static/js/main.5dd8a438.chunk.js.map",
+    "runtime-main.js": "/Latihan-1-FE-18/my-app/static/js/runtime-main.f94586a3.js",
+    "runtime-main.js.map": "/Latihan-1-FE-18/my-app/static/js/runtime-main.f94586a3.js.map",
+    "static/js/2.4ef9cd8e.chunk.js": "/Latihan-1-FE-18/my-app/static/js/2.4ef9cd8e.chunk.js",
+    "static/js/2.4ef9cd8e.chunk.js.map": "/Latihan-1-FE-18/my-app/static/js/2.4ef9cd8e.chunk.js.map",
+    "static/js/3.1c7f951a.chunk.js": "/Latihan-1-FE-18/my-app/static/js/3.1c7f951a.chunk.js",
+    "static/js/3.1c7f951a.chunk.js.map": "/Latihan-1-FE-18/my-app/static/js/3.1c7f951a.chunk.js.map",
+    "index.html": "/Latihan-1-FE-18/my-app/index.html",
+    "static/css/main.3b4b208f.chunk.css.map": "/Latihan-1-FE-18/my-app/static/css/main.3b4b208f.chunk.css.map",
+    "static/js/2.4ef9cd8e.chunk.js.LICENSE.txt": "/Latihan-1-FE-18/my-app/static/js/2.4ef9cd8e.chunk.js.LICENSE.txt",
+    "static/media/img_1.c9447e84.jpg": "/Latihan-1-FE-18/my-app/static/media/img_1.c9447e84.jpg",
+    "static/media/payment.ebf3a54f.svg": "/Latihan-1-FE-18/my-app/static/media/payment.ebf3a54f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f94586a3.js",
+    "static/js/2.4ef9cd8e.chunk.js",
+    "static/css/main.3b4b208f.chunk.css",
+    "static/js/main.5dd8a438.chunk.js"
+  ]
+}
