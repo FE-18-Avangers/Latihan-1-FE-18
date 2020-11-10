@@ -102,7 +102,7 @@ class UpgradePremium extends React.Component {
                         </div>
                     </div>
                     <div class="submit-button row">
-                        <Link to={this.state.service ? 'upgrade-premium/pembayaran' : 'upgrade-premium'}>
+                        <Link to={this.state.service1 || this.state.service2 || this.state.service3 ? 'upgrade-premium/pembayaran' : 'upgrade-premium'}>
                             <button className={this.state.service1 || this.state.service2 || this.state.service3 ? 'btn btn-primary' : 'btn btn-secondary'}
                             >
                                 Selanjutnya</button></Link>
