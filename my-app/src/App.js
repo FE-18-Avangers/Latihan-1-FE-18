@@ -3,7 +3,6 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Movie from "./components/API/movie";
 import DetailFilm from "./components/API/DetailFilm";
-import Homepage from "./components/API/Homepage";
 import Navbar from "./components/API/Navbar";
 import UpgradePremium from './components/upgradePremium/Upgradepremium';
 import Pembayaran from './components/API/Pembayaran';

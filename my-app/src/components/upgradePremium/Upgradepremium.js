@@ -4,11 +4,25 @@ import { Link } from "react-router-dom";
 
 class UpgradePremium extends React.Component {
     state = {
-        service: false,
+        service1: false,
+        service2: false,
+        service3: false,
     }
 
-    serviceClickedHandler = () => {
-        this.setState({ service: true })
+    service1ClickedToggleHandler = () => {
+        this.setState((prevState) => {
+            return { service1: !prevState.service1 }
+        });
+    }
+    service2ClickedToggleHandler = () => {
+        this.setState((prevState) => {
+            return { service2: !prevState.service2 }
+        });
+    }
+    service3ClickedToggleHandler = () => {
+        this.setState((prevState) => {
+            return { service3: !prevState.service3 }
+        });
     }
 
     render() {
@@ -27,16 +41,21 @@ class UpgradePremium extends React.Component {
                     <div className='category-services text-center row'
                     >
                         <div className='service col-3'>
-                            <p>Basic</p>
+                            <p
+                                style={{ opacity: this.state.service1 ? '0.8' : null }}
+                                onClick={this.service1ClickedToggleHandler.bind(this)}
+                            >Basic</p>
                         </div>
                         <div className='service col-3'>
                             <p
+                                style={{ opacity: this.state.service2 ? '0.8' : null }}
+                                onClick={this.service2ClickedToggleHandler.bind(this)}
                             >Standard</p>
                         </div>
                         <div className='service col-3'>
                             <p
-                                onClick={this.serviceClickedHandler.bind(this)}
-                                style={{ opacity: this.state.service ? '0.8' : null }}
+                                style={{ opacity: this.state.service3 ? '0.8' : null }}
+                                onClick={this.service3ClickedToggleHandler.bind(this)}
                             >Premium</p>
                         </div>
                     </div>
@@ -84,7 +103,7 @@ class UpgradePremium extends React.Component {
                     </div>
                     <div class="submit-button row">
                         <Link to={this.state.service ? 'upgrade-premium/pembayaran' : 'upgrade-premium'}>
-                            <button className={this.state.service ? 'btn btn-primary' : 'btn btn-secondary'}
+                            <button className={this.state.service1 || this.state.service2 || this.state.service3 ? 'btn btn-primary' : 'btn btn-secondary'}
                             >
                                 Selanjutnya</button></Link>
                     </div>
